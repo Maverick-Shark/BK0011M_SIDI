@@ -1,5 +1,5 @@
-BK0011M (USSR Home computer) core for SiDi board (DrWh0/Dalekamistoso)
-======================================================================
+BK0011M (USSR Home computer) core for SiDi (DrWh0)
+==================================================
 
 
 
