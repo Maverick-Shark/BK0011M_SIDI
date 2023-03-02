@@ -1,0 +1,149 @@
+Flow report for bk0011m
+Fri Feb 24 23:13:53 2023
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Flow Summary                                                                    ;
++------------------------------------+--------------------------------------------+
+; Flow Status                        ; Successful - Fri Feb 24 23:13:45 2023      ;
+; Quartus II 64-Bit Version          ; 15.0.0 Build 145 04/22/2015 SJ Web Edition ;
+; Revision Name                      ; bk0011m                                    ;
+; Top-level Entity Name              ; bk0011m                                    ;
+; Family                             ; Cyclone IV E                               ;
+; Device                             ; EP4CE22F17C8                               ;
+; Timing Models                      ; Final                                      ;
+; Total logic elements               ; 8,289 / 22,320 ( 37 % )                    ;
+;     Total combinational functions  ; 7,750 / 22,320 ( 35 % )                    ;
+;     Dedicated logic registers      ; 2,764 / 22,320 ( 12 % )                    ;
+; Total registers                    ; 2817                                       ;
+; Total pins                         ; 69 / 154 ( 45 % )                          ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 359,936 / 608,256 ( 59 % )                 ;
+; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                            ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                             ;
++------------------------------------+--------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/24/2023 23:11:44 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; bk0011m             ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                     ;
++---------------------------------------------------+---------------------------------------+---------------+-------------+------------+
+; Assignment Name                                   ; Value                                 ; Default Value ; Entity Name ; Section Id ;
++---------------------------------------------------+---------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID                             ; 57715609680137.167727670409212        ; --            ; --          ; --         ;
+; CYCLONEII_OPTIMIZATION_TECHNIQUE                  ; Speed                                 ; Balanced      ; --          ; --         ;
+; ENABLE_SIGNALTAP                                  ; Off                                   ; --            ; --          ; --         ;
+; FITTER_EARLY_TIMING_ESTIMATE_MODE                 ; Optimistic                            ; Realistic     ; --          ; --         ;
+; FITTER_EFFORT                                     ; Standard Fit                          ; Auto Fit      ; --          ; --         ;
+; FLOW_ENABLE_IO_ASSIGNMENT_ANALYSIS                ; On                                    ; Off           ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP                            ; 85                                    ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP                            ; 0                                     ; --            ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS                           ; All                                   ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS                    ; Half Signal Swing                     ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS                    ; Half Signal Swing                     ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS                   ; Half Vccio                            ; --            ; --          ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS                   ; Half Vccio                            ; --            ; --          ; --         ;
+; PARTITION_COLOR                                   ; 16764057                              ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL               ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE                            ; SOURCE                                ; --            ; --          ; Top        ;
+; PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING ; On                                    ; Off           ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC                    ; On                                    ; Off           ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC_FOR_AREA           ; On                                    ; Off           ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_EFFORT                         ; Extra                                 ; Normal        ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_MAP_LOGIC_TO_MEMORY_FOR_AREA   ; On                                    ; Off           ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION           ; On                                    ; Off           ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING              ; On                                    ; Off           ; --          ; --         ;
+; POWER_BOARD_THERMAL_MODEL                         ; None (CONSERVATIVE)                   ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION                     ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --         ;
+; PRE_FLOW_SCRIPT_FILE                              ; quartus_sh:build_id_verilog.tcl       ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY                          ; output_files                          ; --            ; --          ; --         ;
+; SAVE_DISK_SPACE                                   ; Off                                   ; On            ; --          ; --         ;
+; SMART_RECOMPILE                                   ; On                                    ; Off           ; --          ; --         ;
+; USE_SIGNALTAP_FILE                                ; stp1.stp                              ; --            ; --          ; --         ;
++---------------------------------------------------+---------------------------------------+---------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:44     ; 1.0                     ; 4964 MB             ; 00:00:50                           ;
+; I/O Assignment Analysis   ; 00:00:08     ; 1.0                     ; 5034 MB             ; 00:00:06                           ;
+; Fitter                    ; 00:00:58     ; 1.0                     ; 5336 MB             ; 00:00:58                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4782 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 4936 MB             ; 00:00:06                           ;
+; Total                     ; 00:01:57     ; --                      ; --                  ; 00:02:01                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; XCOM-1           ; Windows 7 ; 6.2        ; x86_64         ;
+; I/O Assignment Analysis   ; XCOM-1           ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; XCOM-1           ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; XCOM-1           ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; XCOM-1           ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off bk0011m -c bk0011m
+quartus_fit --read_settings_files=off --write_settings_files=off bk0011m -c bk0011m --plan
+quartus_fit --read_settings_files=off --write_settings_files=off bk0011m -c bk0011m
+quartus_asm --read_settings_files=off --write_settings_files=off bk0011m -c bk0011m
+quartus_sta bk0011m -c bk0011m
+
+
+
