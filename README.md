@@ -16,11 +16,9 @@ I did it just for fun and educational purposes feel free to use and modify accor
 
 This software comes without anykind of warranty, I have already tested it and works for me feel free to share it and improve it :)
 
-Note:
-
-I have converted the code in order to work with SiDi boards THERE ARE NO EXTRA FEATURES ADDED OR DELETED
 
 
+### ------------------- USAGE & FEATURES ------------------- ###
 
 
 
@@ -44,7 +42,7 @@ Copy the *.rbf file at the root of the SD card. You can rename the file to core.
 Copy [bk0011m.rom] to root of SD card. There is another ROM image with A16M and SMK512 extensions disabled. Use it if you want standard FDD(and HDD) support.
 
 
-For PAL mode (RGBS output) you need to put [mist.ini](https://github.com/sorgelig/ZX_Spectrum-128K_MIST/tree/master/releases/mist.ini) file to the root of SD card. Set the option **scandoubler_disable** for desired video output.
+For PAL mode (RGBS output) you need to put [mist.ini] file to the root of SD card. Set the option **scandoubler_disable** for desired video output.
 
 There are couple disk images in [extra] folder with CSIDOS OS with complete ecosystem (viewer,text editor, music editor, debugger, etc.) written by me more than 20 years ago. Image also incudes some music and utils written by different people.
 
