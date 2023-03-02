@@ -14,7 +14,7 @@ https://github.com/sorgelig/BK0011M_MIST
 
 I did it just for fun and educational purposes feel free to use and modify according to original license.
 
-This software comes without anykind of warranty, I have already tested it and works for me feel free to share it and improve it :)
+This software comes without anykind of warranty, feel free to share it and improve it :)
 
 
 
