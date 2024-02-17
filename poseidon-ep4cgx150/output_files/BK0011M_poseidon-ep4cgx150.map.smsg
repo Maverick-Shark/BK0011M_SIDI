@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at user_io.v(47): object "SPI_DO" differs only in case from object "spi_do" in the same scope File: //wsl.localhost/Ubuntu-22.04/Cores/BK0011M_SIDI/user_io.v Line: 47
+Warning (10273): Verilog HDL warning at hq2x.sv(247): extended using "x" or "z" File: //wsl.localhost/Ubuntu-22.04/Cores/BK0011M_SIDI/hq2x.sv Line: 247
+Warning (10268): Verilog HDL information at scandoubler.v(102): always construct contains both blocking and non-blocking assignments File: //wsl.localhost/Ubuntu-22.04/Cores/BK0011M_SIDI/scandoubler.v Line: 102
+Info (10281): Verilog HDL Declaration information at scandoubler.v(29): object "hq2x" differs only in case from object "Hq2x" in the same scope File: //wsl.localhost/Ubuntu-22.04/Cores/BK0011M_SIDI/scandoubler.v Line: 29

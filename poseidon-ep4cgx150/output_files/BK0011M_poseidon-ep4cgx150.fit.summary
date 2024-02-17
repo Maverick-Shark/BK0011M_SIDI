@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sat Feb 17 09:30:29 2024
+Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+Revision Name : BK0011M_poseidon-ep4cgx150
+Top-level Entity Name : poseidon_top
+Family : Cyclone IV GX
+Device : EP4CGX150DF27I7
+Timing Models : Final
+Total logic elements : 7,899 / 149,760 ( 5 % )
+    Total combinational functions : 7,316 / 149,760 ( 5 % )
+    Dedicated logic registers : 2,745 / 149,760 ( 2 % )
+Total registers : 2798
+Total pins : 77 / 426 ( 18 % )
+Total virtual pins : 0
+Total memory bits : 359,936 / 6,635,520 ( 5 % )
+Embedded Multiplier 9-bit elements : 0 / 720 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 1 / 8 ( 13 % )
